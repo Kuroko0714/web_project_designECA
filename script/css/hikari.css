@@ -1,0 +1,279 @@
+@import url("font_face.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+
+.icon {
+    position: fixed;
+    font-weight: 900;
+    float: left;
+    background-image:url("../../resource/img/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ddd;
+    height: 72px;
+    line-height: 72px;
+    width: 33%;
+}
+
+.icon div{
+    margin-top: 5px;
+    color: #8481ca;
+    text-align: center;
+    font-family: "ADELE";
+    font-size: 60px;
+}
+
+.icon img{
+    float: left;
+    vertical-align: top;
+    height: 60px;
+    margin: 6px;
+}
+
+.banner {
+    position: fixed;
+    left: 33%;
+    float: left;
+    background-image:url("../../resource/img/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72px;
+    line-height: 72px;
+    width: 67%;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+.banner td{
+    width: calc(75% / 4);
+    text-align: center;
+}
+
+.banner a{
+    font-weight: 750;
+    color: #ae8bff;
+    text-align: center;
+    font-family: "XiaolaiSC";
+    text-decoration: none;
+}
+
+.left_nav{
+    position: fixed;
+    top: 72px;
+    color: #fff;
+    font-family: "XiaolaiSC";
+    font-weight: 800;
+    height: calc(100% - 72px);
+    width: 20%;
+    float: left;
+    background-image:url("../../resource/img/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left_nav #Time {
+    display: inline;
+    font-size: 60px;
+    color: #bba2f5;
+}
+
+.left_nav #Date{
+    display: inline;
+    font-size: 20px;
+    color: #bba2f5;
+}
+
+.left_nav .activity{
+    color: #bba2f5;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    padding: 3px;
+    border: 3px dotted white;
+    height: 250px;
+    border-radius: 3px;
+}
+
+
+.left_nav .activity h1{
+    display: inline;
+    text-decoration: underline solid 2px;
+    font-size: 40px;
+}
+
+.activity .card{
+    background: #ddd;
+    height: calc(100% - 40px);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.activity .card .image{
+    background-image: url("../../resource/img/activity/21_4_stargazing.png");
+    border-radius: 2px;
+    border: 3px solid #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55%;
+}
+
+.activity .card p{
+    line-height: 40px;
+    display: inline-block;
+    height: 30%;
+    color: #5754ac;
+    font-size: 20px;
+    text-decoration: solid 3px #555;
+    text-align: center;
+}
+
+.left_nav .astro_trivia {
+    color: #bba2f5;
+    position: relative;
+    top: 40px;
+    margin: 5px;
+    padding: 3px;
+    border: 3px dotted white;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.left_nav .astro_trivia h1 {
+    display: inline;
+    text-decoration: underline solid 2px;
+    font-size: 40px;
+}
+
+.astro_trivia .card {
+    background: #ddd;
+    height: calc(100% - 40px);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.astro_trivia .card .image {
+    background-image: url("../../resource/img/astro/earthshine.png");
+    border-radius: 2px;
+    border: 3px solid #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55%;
+}
+
+.astro_trivia .card p {
+    line-height: 85px;
+    display: inline-block;
+    height: 30%;
+    color: #5754ac;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+}
+
+div.body {
+    height: 100%;
+    padding-top: 72px;
+    padding-left: 20%;
+    background-color: #000;
+}
+
+.body .pin_body{
+    font-family: "XiaolaiSC";
+    font-size: 36px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px dotted white;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.body a{
+    text-decoration: none;
+    color: #bba2f5
+}
+
+.pin_body h1 {
+    display: block;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 555;
+    height: 120px;
+}
+
+.pin_body p{
+    font-size: 30px;
+    font-weight: 388;
+}
+
+.pin_body .pin_card .image{
+    background-image: url("../../resource/img/astro/weather_or_climate.png");
+    border-radius: 2px;
+    border: 3px solid #000;
+    background-size: contain;
+    float: left;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+
+.box {
+    float: left;
+    font-family: "XiaolaiSC";
+    font-size: 36px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px dotted white;
+    height: calc(80% - 250px);
+    width: 60%;
+    border-radius: 3px;
+}
+
+.box h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 555;
+    height: 60px;
+}
+
+.album h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 555;
+    height: 40px;
+}
+
+.box p{
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.box h1 span{
+    font-size: 24px;
+}
+
+.album{
+    float: right;
+    font-family: "XiaolaiSC";
+    font-size: 36px;
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+    border: 3px dotted white;
+    height: calc(80% - 250px);
+    width: calc(35% - 16px);
+    border-radius: 3px;
+}
+
+.album div{
+    background-image: url("https://apod.nasa.gov/apod/image/2203/PointReyesMilkyWayDanZafra.jpg");
+    background-size: cover;
+    height: calc(100% - 40px);
+}
