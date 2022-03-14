@@ -2,7 +2,7 @@
 
 .body {
     background-color: #000;
-    height: 100%;
+    height: auto;
     padding: 82px 10px 0px 10px;
 }
 
@@ -10,10 +10,10 @@
     font-family: "XiaolaiSC";
     color: #b8a5fd;
     text-decoration: none;
-    
+
 }
 
-.body div.activity h1{
+.body div.activity h1 {
     padding: 10px 0;
     font-size: 50px;
     height: 1em;
@@ -23,46 +23,47 @@
     font-size: 30px;
 }
 
-div.activity{
+div.activity {
     border-bottom: 2px dotted #fff;
-    height: 35%;
+    height: 350px;
     width: calc(100% - 20px);
 }
 
-div.activity .text{
+div.activity .text {
     padding-left: 20px;
-    display: block;
     float: left;
     width: 75%;
 }
 
-p.msg_date{
+p.msg_date {
     font-size: 14px;
     height: 14px;
     text-align: right;
     padding-right: 10px;
 }
 
-div#star21-4 div.img {
+div.img {
     border-radius: 8px;
-    margin: 10px;
-    display: inline;
+    margin: 0 10px 10px;
     text-align: right;
     float: right;
     width: calc(20% - 20px);
-    background-image: url("../../resource/img/activity/21_4_stargazing.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div#star21-3 div.img{
-    border-radius: 8px;
-    margin: 10px;
-    display: inline;
-    text-align: right;
-    float: right;
-    width: calc(20% - 20px);
+div#star21-4 div.img {
+    background-image: url("../../resource/img/activity/21_4_stargazing.png");
+}
+
+div#star21-3 div.img {
     background-image: url("../../resource/img/activity/21_3_talking.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+
+div#star21-2 div.img {
+    background-image: url("../../resource/img/activity/21_2.png");
+}
+
+div#star21-1 div.img {
+    background-image: url("../../resource/img/activity/21_1.png");
 }
