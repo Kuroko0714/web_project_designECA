@@ -1,0 +1,69 @@
+@import url("font_face.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.icon {
+    position: fixed;
+    font-weight: 900;
+    float: left;
+    background-image: url("../../resource/img/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ddd;
+    height: 72px;
+    line-height: 72px;
+    width: 33%;
+}
+
+.icon div {
+    margin-top: 5px;
+    color: #8481ca;
+    text-align: center;
+    font-family: "ADELE";
+    font-size: 60px;
+}
+
+.icon img {
+    float: left;
+    vertical-align: top;
+    height: 60px;
+    margin: 6px;
+}
+
+.banner {
+    position: fixed;
+    left: 33%;
+    float: left;
+    background-image: url("../../resource/img/banner_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72px;
+    line-height: 72px;
+    width: 67%;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.banner td {
+    width: calc(75% / 4);
+    text-align: center;
+}
+
+.banner a {
+    font-weight: 750;
+    color: #ae8bff;
+    text-align: center;
+    font-family: "XiaolaiSC";
+    text-decoration: none;
+}
+
+.body{
+    background-color: #000;
+}

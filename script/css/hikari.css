@@ -6,13 +6,11 @@
     height: 100%;
 }
 
-
-
 .icon {
     position: fixed;
     font-weight: 900;
     float: left;
-    background-image:url("../../resource/img/banner_bg.png");
+    background-image: url("../../resource/img/banner_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #ddd;
@@ -21,7 +19,7 @@
     width: 33%;
 }
 
-.icon div{
+.icon div {
     margin-top: 5px;
     color: #8481ca;
     text-align: center;
@@ -29,7 +27,7 @@
     font-size: 60px;
 }
 
-.icon img{
+.icon img {
     float: left;
     vertical-align: top;
     height: 60px;
@@ -40,7 +38,7 @@
     position: fixed;
     left: 33%;
     float: left;
-    background-image:url("../../resource/img/banner_bg.png");
+    background-image: url("../../resource/img/banner_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 72px;
@@ -52,12 +50,13 @@
 table {
     border-collapse: collapse;
 }
-.banner td{
+
+.banner td {
     width: calc(75% / 4);
     text-align: center;
 }
 
-.banner a{
+.banner a {
     font-weight: 750;
     color: #ae8bff;
     text-align: center;
@@ -65,7 +64,7 @@ table {
     text-decoration: none;
 }
 
-.left_nav{
+.left_nav {
     position: fixed;
     top: 72px;
     color: #fff;
@@ -74,7 +73,7 @@ table {
     height: calc(100% - 72px);
     width: 20%;
     float: left;
-    background-image:url("../../resource/img/banner_bg.png");
+    background-image: url("../../resource/img/banner_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -85,13 +84,13 @@ table {
     color: #bba2f5;
 }
 
-.left_nav #Date{
+.left_nav #Date {
     display: inline;
     font-size: 20px;
     color: #bba2f5;
 }
 
-.left_nav .activity{
+.left_nav .activity {
     color: #bba2f5;
     position: relative;
     top: 10px;
@@ -103,13 +102,13 @@ table {
 }
 
 
-.left_nav .activity h1{
+.left_nav .activity h1 {
     display: inline;
     text-decoration: underline solid 2px;
     font-size: 40px;
 }
 
-.activity .card{
+.activity .card {
     background: #ddd;
     height: calc(100% - 40px);
     width: 100%;
@@ -117,7 +116,7 @@ table {
     border: 1px solid #000;
 }
 
-.activity .card .image{
+.activity .card .image {
     background-image: url("../../resource/img/activity/21_4_stargazing.png");
     border-radius: 2px;
     border: 3px solid #000;
@@ -126,7 +125,7 @@ table {
     height: 55%;
 }
 
-.activity .card p{
+.activity .card p {
     line-height: 40px;
     display: inline-block;
     height: 30%;
@@ -187,7 +186,7 @@ div.body {
     background-color: #000;
 }
 
-.body .pin_body{
+.body .pin_body {
     font-family: "XiaolaiSC";
     font-size: 36px;
     margin: 10px;
@@ -197,7 +196,7 @@ div.body {
     border-radius: 3px;
 }
 
-.body a{
+.body a {
     text-decoration: none;
     color: #bba2f5
 }
@@ -210,12 +209,12 @@ div.body {
     height: 120px;
 }
 
-.pin_body p{
+.pin_body p {
     font-size: 30px;
     font-weight: 388;
 }
 
-.pin_body .pin_card .image{
+.pin_body .pin_card .image {
     background-image: url("../../resource/img/astro/weather_or_climate.png");
     border-radius: 2px;
     border: 3px solid #000;
@@ -244,19 +243,19 @@ div.body {
     height: 60px;
 }
 
-.album h1{
+.album h1 {
     font-size: 40px;
     line-height: 1.2;
     font-weight: 555;
     height: 40px;
 }
 
-.box p{
+.box p {
     font-size: 30px;
     line-height: 1.1;
 }
 
-.box h1 span{
+.box h1 span {
     font-size: 24px;
 }
 
