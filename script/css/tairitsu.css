@@ -23,8 +23,13 @@
     font-size: 30px;
 }
 
-div.activity {
+div.activity:not(:last-of-type) {
     border-bottom: 2px dotted #fff;
+    height: 350px;
+    width: calc(100% - 20px);
+}
+
+div.activity:last-of-type{
     height: 350px;
     width: calc(100% - 20px);
 }
@@ -45,7 +50,6 @@ p.msg_date {
 div.img {
     border-radius: 8px;
     margin: 0 10px 10px;
-    text-align: right;
     float: right;
     width: calc(20% - 20px);
     background-size: contain;
