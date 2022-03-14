@@ -260,7 +260,7 @@ div.body {
     font-size: 24px;
 }
 
-.album{
+.album {
     float: right;
     font-family: "XiaolaiSC";
     font-size: 36px;
@@ -272,7 +272,7 @@ div.body {
     border-radius: 3px;
 }
 
-.album div{
+.album div {
     background-image: url("https://apod.nasa.gov/apod/image/2203/PointReyesMilkyWayDanZafra.jpg");
     background-size: cover;
     height: calc(100% - 40px);
