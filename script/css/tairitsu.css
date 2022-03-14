@@ -1,69 +1,68 @@
-@import url("font_face.css");
+@import url("banner.css");
 
-* {
-    padding: 0;
-    margin: 0;
+.body {
+    background-color: #000;
     height: 100%;
+    padding: 82px 10px 0px 10px;
 }
 
-.icon {
-    position: fixed;
-    font-weight: 900;
-    float: left;
-    background-image: url("../../resource/img/banner_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ddd;
-    height: 72px;
-    line-height: 72px;
-    width: 33%;
+.body a {
+    font-family: "XiaolaiSC";
+    color: #b8a5fd;
+    text-decoration: none;
+    
 }
 
-.icon div {
-    margin-top: 5px;
-    color: #8481ca;
-    text-align: center;
-    font-family: "ADELE";
-    font-size: 60px;
+.body div.activity h1{
+    padding: 10px 0;
+    font-size: 50px;
+    height: 1em;
 }
 
-.icon img {
-    float: left;
-    vertical-align: top;
-    height: 60px;
-    margin: 6px;
-}
-
-.banner {
-    position: fixed;
-    left: 33%;
-    float: left;
-    background-image: url("../../resource/img/banner_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 72px;
-    line-height: 72px;
-    width: 67%;
+.body div.activity p:nth-of-type(2) {
     font-size: 30px;
 }
 
-table {
-    border-collapse: collapse;
+div.activity{
+    border-bottom: 2px dotted #fff;
+    height: 35%;
+    width: calc(100% - 20px);
 }
 
-.banner td {
-    width: calc(75% / 4);
-    text-align: center;
+div.activity .text{
+    padding-left: 20px;
+    display: block;
+    float: left;
+    width: 75%;
 }
 
-.banner a {
-    font-weight: 750;
-    color: #ae8bff;
-    text-align: center;
-    font-family: "XiaolaiSC";
-    text-decoration: none;
+p.msg_date{
+    font-size: 14px;
+    height: 14px;
+    text-align: right;
+    padding-right: 10px;
 }
 
-.body{
-    background-color: #000;
+div#star21-4 div.img {
+    border-radius: 8px;
+    margin: 10px;
+    display: inline;
+    text-align: right;
+    float: right;
+    width: calc(20% - 20px);
+    background-image: url("../../resource/img/activity/21_4_stargazing.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div#star21-3 div.img{
+    border-radius: 8px;
+    margin: 10px;
+    display: inline;
+    text-align: right;
+    float: right;
+    width: calc(20% - 20px);
+    background-image: url("../../resource/img/activity/21_3_talking.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
