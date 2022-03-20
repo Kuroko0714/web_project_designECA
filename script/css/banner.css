@@ -36,6 +36,7 @@
 
 .banner {
     position: fixed;
+    width: 100%;
     left: 33%;
     float: right;
     background-image: url("../../resource/img/banner_bg.png");
@@ -51,8 +52,8 @@ table {
 }
 
 .banner td {
-    width: 20%;
     text-align: center;
+    width: 15%;
 }
 
 .banner a {
@@ -71,5 +72,5 @@ table {
 div.body{
     height: auto;
     padding-top: 72px;
-    background-color: #090624;
+    background-color: #1f1e33;
 }
