@@ -1,0 +1,39 @@
+@import url("../banner.css");
+
+* {
+    font-family: "XiaolaiSC";
+    color: #b8a5fd;
+}
+
+div.album{
+    margin: 10px;
+    height: 300px;
+    border-bottom: 3px dotted #fff;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.5;
+    height: 1.5em;
+    text-decoration: underline solid 2px;
+    font-weight: 600;
+
+}
+
+p.msg_date{
+    font-size: 14px;
+    line-height: 1.5;
+    height: 1.5em;
+    text-align: right;
+}
+
+p{
+    font-size: 30px;
+}
+
+span{
+    margin: 20px;
+    height: calc(100% - 96px);
+}

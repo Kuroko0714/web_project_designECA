@@ -1,8 +1,6 @@
-@import url("banner.css");
+@import url("../banner.css");
 
 .body {
-    background-color: #000;
-    height: auto;
     padding: 82px 10px 0px 10px;
 }
 
@@ -57,17 +55,17 @@ div.img {
 }
 
 div#star21-4 div.img {
-    background-image: url("../../resource/img/activity/21_4_stargazing.png");
+    background-image: url("../../../resource/img/activity/21_4_stargazing.png");
 }
 
 div#star21-3 div.img {
-    background-image: url("../../resource/img/activity/21_3_talking.png");
+    background-image: url("../../../resource/img/activity/21_3_talking.png");
 }
 
 div#star21-2 div.img {
-    background-image: url("../../resource/img/activity/21_2.png");
+    background-image: url("../../../resource/img/activity/21_2.png");
 }
 
 div#star21-1 div.img {
-    background-image: url("../../resource/img/activity/21_1.png");
+    background-image: url("../../../resource/img/activity/21_1.png");
 }

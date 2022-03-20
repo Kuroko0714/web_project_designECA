@@ -1,79 +1,19 @@
-@import url("font_face.css");
+@import url("../banner.css");
 
-* {
-    padding: 0;
-    margin: 0;
+div.body{
     height: 100%;
-}
-
-.icon {
-    position: fixed;
-    font-weight: 900;
-    float: left;
-    background-image: url("../../resource/img/banner_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ddd;
-    height: 72px;
-    line-height: 72px;
-    width: 33%;
-}
-
-.icon div {
-    margin-top: 5px;
-    color: #8481ca;
-    text-align: center;
-    font-family: "ADELE";
-    font-size: 60px;
-}
-
-.icon img {
-    float: left;
-    vertical-align: top;
-    height: 60px;
-    margin: 6px;
-}
-
-.banner {
-    position: fixed;
-    left: 33%;
-    float: left;
-    background-image: url("../../resource/img/banner_bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 72px;
-    line-height: 72px;
-    width: 67%;
-    font-size: 30px;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-.banner td {
-    width: calc(75% / 4);
-    text-align: center;
-}
-
-.banner a {
-    font-weight: 750;
-    color: #ae8bff;
-    text-align: center;
-    font-family: "XiaolaiSC";
-    text-decoration: none;
 }
 
 .left_nav {
     position: fixed;
+    color: #b8a5fd;
     top: 72px;
-    color: #fff;
     font-family: "XiaolaiSC";
     font-weight: 800;
     height: calc(100% - 72px);
     width: 20%;
     float: left;
-    background-image: url("../../resource/img/banner_bg.png");
+    background-color: #111;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,7 +49,7 @@ table {
 }
 
 .activity .card {
-    background: #ddd;
+    background: #000;
     height: calc(100% - 40px);
     width: 100%;
     border-radius: 5px;
@@ -117,7 +57,7 @@ table {
 }
 
 .activity .card .image {
-    background-image: url("../../resource/img/activity/21_4_stargazing.png");
+    background-image: url("../../../resource/img/activity/21_4_stargazing.png");
     border-radius: 2px;
     border: 3px solid #000;
     background-size: cover;
@@ -129,7 +69,7 @@ table {
     line-height: 40px;
     display: inline-block;
     height: 30%;
-    color: #5754ac;
+    color: #8c54ac;
     font-size: 20px;
     text-decoration: solid 3px #555;
     text-align: center;
@@ -153,7 +93,7 @@ table {
 }
 
 .astro_trivia .card {
-    background: #ddd;
+    background: #000;
     height: calc(100% - 40px);
     width: 100%;
     border-radius: 5px;
@@ -161,7 +101,7 @@ table {
 }
 
 .astro_trivia .card .image {
-    background-image: url("../../resource/img/astro/earthshine.png");
+    background-image: url("../../../../resource/img/astro/earthshine.png");
     border-radius: 2px;
     border: 3px solid #000;
     background-size: cover;
@@ -173,17 +113,14 @@ table {
     line-height: 85px;
     display: inline-block;
     height: 30%;
-    color: #5754ac;
+    color: #8c54ac;
     font-size: 35px;
     font-weight: 200;
     text-align: center;
 }
 
-div.body {
-    height: 100%;
-    padding-top: 72px;
+div.body{
     padding-left: 20%;
-    background-color: #000;
 }
 
 .body .pin_body {
@@ -193,7 +130,7 @@ div.body {
     padding: 5px;
     border: 3px dotted white;
     height: 250px;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .body a {
@@ -215,9 +152,7 @@ div.body {
 }
 
 .pin_body .pin_card .image {
-    background-image: url("../../resource/img/astro/weather_or_climate.png");
-    border-radius: 2px;
-    border: 3px solid #000;
+    background-image: url("../../../resource/img/astro/weather_or_climate.png");
     background-size: contain;
     float: left;
     width: 30%;

@@ -37,14 +37,13 @@
 .banner {
     position: fixed;
     left: 33%;
-    float: left;
+    float: right;
     background-image: url("../../resource/img/banner_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 72px;
     line-height: 72px;
-    width: 67%;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 table {
@@ -52,13 +51,25 @@ table {
 }
 
 .banner td {
-    width: calc(75% / 4);
+    width: 20%;
     text-align: center;
 }
 
 .banner a {
+    background-color: #444;
+    border-radius: 10px;
     font-weight: 750;
     color: #ae8bff;
     font-family: "XiaolaiSC";
     text-decoration: none;
+}
+
+.banner a:hover{
+    color: #d6c4ff;
+}
+
+div.body{
+    height: auto;
+    padding-top: 72px;
+    background-color: #090624;
 }
