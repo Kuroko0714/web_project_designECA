@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="script/css/bg_hikari.css">
+    <link rel="stylesheet" href="script/css/page/hikari.css">
     <title>Homeee</title>
-    <script src="script/js/main.js"></script>
-    <link type="text/javascript" href="script/js/weather.js">
-    <script src="script/node/jquery.js"></script>
     <script>
-        setInterval(var_set_time, 1000);
-        setInterval(getWeather, 1000);
+        
+            var zero = function (num) {
+                if (num < 10) {
+                    return "0" + num;
+                } return num;
+            }
+
+            var var_set_time = function () {
+                var now = new Date(),
+                    month = now.getMonth() + 1,
+                    date = now.getDate(),
+                    day = now.getDay(),
+                    day_changeStr = ["Sun", "Mon", "Tue", "Wed", "Thr", "Fri", "Sat"],
+                    str_day = day_changeStr[day],
+                    hr = zero(now.getHours()),
+                    min = zero(now.getMinutes());
+                var date = `${str_day} ${date}/${month}`,
+                    time = `${hr}:${min}`;
+                // console.log(date + "\n" + time) // for debug
+                $("#Time").text(time);
+                $("#Date").text(date);
+            }
+            setInterval(var_set_time, 1000);
     </script>
+    <script src="script/node/jquery.js"></script>
 </head>
 
 <!--Test git-->
+
 <body>
     <div class="icon">
         <img src="resource/img/ast_icon.jpg" alt="">
@@ -26,19 +47,18 @@
         <table border="0">
             <tr>
                 <td>
-                    <a href="index.html" style="color:#7d79fc">Home</a>
+                    <a href="index.html" style="color:#7d79fc">首頁</a>
                 </td>
                 <td>
-                    <a href="page/activity.html">Our Activity</a>
+                    <a href="page/activity.html">活動</a>
                 </td>
                 <td>
-                    <a href="page/album.html">Memories</a></td>
-                <td style="width: 25%;">
-                    <a href="page/committee.html">Our Committee</a>
+                    <a href="page/album.html">相冊</a>
                 </td>
-                <td style="width: 25%;">
-                    <a href="page/astro_trivia">Astronomy Trivia</a>
+                <td style="width:25%;">
+                    <a href="page/astro_trivia">天文冷知識</a>
                 </td>
+                <td><a href="page/committee.html">關於我們</a></td>
             </tr>
         </table>
     </div>
@@ -49,37 +69,66 @@
 
         <br>
 
-        
         <div class="activity">
-            <h1>Our Activity</h1>
+            <h1>活動</h1>
             <a href="page/activity.html">
-            <div class="card">
-                <div class="image">
+                <div class="card">
+                    <div class="image">
+                    </div>
+                    <div class="text">
+                        <p>Astrnomy Club's 2nd Activity Stargazing!!!
+                        </p>
+                    </div>
                 </div>
-                <div class="text">
-                    <p>Astrnomy Club's 2nd Activity Stargazing!!!
-                    </p>
-                </div>
-            </div>
             </a>
         </div>
 
         <div class="astro_trivia">
-            <h1>Astronomy Trivia</h1>
+            <h1>天文冷知識</h1>
             <a href="page/astro_trivia.html">
-            <div class="card">
-                <div class="image">
+                <div class="card">
+                    <div class="image"></div>
+                    <div class="text">
+                        <p>什麼是地照？</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <p>What is earthshine?<br>Click here to know more!
-                    </p>
-                </div>
-            </div>
             </a>
         </div>
     </div>
+    <!--TODO: hyperlink need to fill-->
     <div class="body">
+        <div class="pin_body">
+            <a href="#">
+                <div class="pin_card">
+                    <div class="image"></div>
+                    <div class="text">
+                        <h1>天文冷知識 Holiday EP1<br>
+                            😵‍💫百年迷思：天文VS氣象？</h1>
+                        <p>一提起天氣，大家會諗起「香港天文台」，又會同天文混淆咗，天文同氣象究竟點分呢？...</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="text">
+                    <h1>通知!!<span>2022/2/3</span></h1>
+                    <p>中三嘅同學應該係未收到件T嘅<br>
+                    因為疫情之前我未得閒派<br>
+                    所以大家而家會有兩個方法<br>
+                    第一 等復課我再俾大家<br>
+                    第二 我會之後新年假期完咗之後搵一日返去學校度等大家比件T大家</p>
+                </div>
+            </a>
+        </div>
 
+        <div class="album">
+            <a href="#">
+                <h1>每日一圖</h1>
+                <div class="img"></div>
+            </a>
+        </div>
     </div>
 </body>
+
 </html>

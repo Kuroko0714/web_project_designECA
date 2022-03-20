@@ -1,0 +1,213 @@
+@import url("../banner.css");
+
+div.body{
+    height: 100%;
+}
+
+.left_nav {
+    position: fixed;
+    color: #b8a5fd;
+    top: 72px;
+    font-family: "XiaolaiSC";
+    font-weight: 800;
+    height: calc(100% - 72px);
+    width: 20%;
+    float: left;
+    background-color: #00002f;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left_nav #Time {
+    display: inline;
+    font-size: 60px;
+    color: #bba2f5;
+}
+
+.left_nav #Date {
+    display: inline;
+    font-size: 20px;
+    color: #bba2f5;
+}
+
+.left_nav .activity {
+    color: #bba2f5;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    padding: 3px;
+    border: 3px dotted white;
+    height: 250px;
+    border-radius: 3px;
+}
+
+
+.left_nav .activity h1 {
+    display: inline;
+    text-decoration: underline solid 2px;
+    font-size: 40px;
+}
+
+.activity .card {
+    background: #000;
+    height: calc(100% - 40px);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.activity .card .image {
+    background-image: url("../../../resource/img/activity/21_4_stargazing.png");
+    border-radius: 2px;
+    border: 3px solid #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55%;
+}
+
+.activity .card p {
+    line-height: 40px;
+    display: inline-block;
+    height: 30%;
+    color: #8c54ac;
+    font-size: 20px;
+    text-decoration: solid 3px #555;
+    text-align: center;
+}
+
+.left_nav .astro_trivia {
+    color: #bba2f5;
+    position: relative;
+    top: 40px;
+    margin: 5px;
+    padding: 3px;
+    border: 3px dotted white;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.left_nav .astro_trivia h1 {
+    display: inline;
+    text-decoration: underline solid 2px;
+    font-size: 40px;
+}
+
+.astro_trivia .card {
+    background: #000;
+    height: calc(100% - 40px);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.astro_trivia .card .image {
+    background-image: url("../../../../resource/img/astro/earthshine.png");
+    border-radius: 2px;
+    border: 3px solid #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55%;
+}
+
+.astro_trivia .card p {
+    line-height: 85px;
+    display: inline-block;
+    height: 30%;
+    color: #8c54ac;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+}
+
+div.body{
+    padding-left: 20%;
+}
+
+.body .pin_body {
+    font-family: "XiaolaiSC";
+    font-size: 36px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px dotted white;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.body a {
+    text-decoration: none;
+    color: #b8a5fd;
+}
+
+.pin_body h1 {
+    display: block;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 555;
+    height: 120px;
+}
+
+.pin_body p {
+    font-size: 30px;
+    font-weight: 388;
+}
+
+.pin_body .pin_card .image {
+    background-image: url("../../../resource/img/astro/weather_or_climate.png");
+    background-size: contain;
+    float: left;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+
+.box {
+    float: left;
+    font-family: "XiaolaiSC";
+    font-size: 36px;
+    margin: 10px;
+    padding: 5px;
+    border: 3px dotted white;
+    height: calc(80% - 250px);
+    width: 60%;
+    border-radius: 3px;
+}
+
+.box h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 555;
+    height: 60px;
+}
+
+.album h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 555;
+    height: 40px;
+}
+
+.box p {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.box h1 span {
+    font-size: 24px;
+}
+
+.album {
+    float: right;
+    font-family: "XiaolaiSC";
+    font-size: 36px;
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+    border: 3px dotted white;
+    height: calc(80% - 250px);
+    width: calc(35% - 16px);
+    border-radius: 3px;
+}
+
+.album div {
+    background-image: url("https://apod.nasa.gov/apod/image/2203/PointReyesMilkyWayDanZafra.jpg");
+    background-size: cover;
+    height: calc(100% - 40px);
+}

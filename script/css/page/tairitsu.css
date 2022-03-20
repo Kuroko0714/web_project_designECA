@@ -1,0 +1,71 @@
+@import url("../banner.css");
+
+.body {
+    padding: 82px 10px 0px 10px;
+}
+
+.body a {
+    font-family: "XiaolaiSC";
+    color: #b8a5fd;
+    text-decoration: none;
+
+}
+
+.body div.activity h1 {
+    padding: 10px 0;
+    font-size: 50px;
+    height: 1em;
+}
+
+.body div.activity p:nth-of-type(2) {
+    font-size: 30px;
+}
+
+div.activity:not(:last-of-type) {
+    border-bottom: 2px dotted #fff;
+    height: 350px;
+    width: calc(100% - 20px);
+}
+
+div.activity:last-of-type{
+    height: 350px;
+    width: calc(100% - 20px);
+}
+
+div.activity .text {
+    padding-left: 20px;
+    float: left;
+    width: 75%;
+}
+
+p.msg_date {
+    font-size: 14px;
+    height: 14px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+div.img {
+    border-radius: 8px;
+    margin: 0 10px 10px;
+    float: right;
+    width: calc(20% - 20px);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div#star21-4 div.img {
+    background-image: url("../../../resource/img/activity/21_4_stargazing.png");
+}
+
+div#star21-3 div.img {
+    background-image: url("../../../resource/img/activity/21_3_talking.png");
+}
+
+div#star21-2 div.img {
+    background-image: url("../../../resource/img/activity/21_2.png");
+}
+
+div#star21-1 div.img {
+    background-image: url("../../../resource/img/activity/21_1.png");
+}
