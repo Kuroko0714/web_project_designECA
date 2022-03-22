@@ -1,0 +1,106 @@
+@import url("../asset/font.css");
+
+table {
+    border-collapse: collapse;
+}
+
+* {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+div.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: 40px;
+    line-height: 72px;
+    height: 72px;
+    font-family: "Lucida Family";
+    background-color: #000;
+}
+
+div.header td {
+    text-align: center;
+    width: 25%;
+}
+
+div.header a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.header a:hover {
+    background: #fff;
+    color: #000;
+}
+
+div.info {
+    position: relative;
+    top: 72px;
+    /* background: #000; */
+    background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_arp282_potw2206a.jpg");
+    background-size: cover;
+    height: calc(100% - 72px);
+    /* height: auto; */
+}
+
+div.info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+div.info div.activity {
+    width: calc(100% - 60px);
+    height: 250px;
+    padding: 30px;
+    border-bottom: 2px #fff dotted;
+    font-family: "XiaolaiSC";
+}
+
+div.info div.text {
+    float: left;
+    width: 80%;
+}
+
+div.info div:nth-of-type(1)>div.img {
+    height: 300px;
+    width: 20%;
+    background-image: url("../asset/img/activity/activity_4.png");
+    background-size: contain;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+div.info div:nth-of-type(2)>div.img {
+    height: 300px;
+    width: 20%;
+    background-image: url("../asset/img/astro/weather_or_climate.png");
+    background-size: contain;
+    float: right;
+    background-repeat: no-repeat;
+
+}
+
+div.info h1 {
+    font-size: 50px;
+    font-weight: 500;
+    height: 1.5em;
+}
+
+div.info span {
+    font-size: 35px;
+    display: inline-block;
+    background: #1f1e33;
+    line-height: 50px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+div.info p {
+    font-size: 30px;
+}
