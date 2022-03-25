@@ -110,3 +110,19 @@ div.img {
     text-align: center;
     border-radius: 20px;
 }
+
+#activity1 .img{
+    background-image: url("../asset/img/activity/activity_1.png");
+}
+
+#activity2 .img {
+    background-image: url("../asset/img/activity/activity_2.png");
+}
+
+#activity3 .img {
+    background-image: url("../asset/img/activity/activity_3.png");
+}
+
+#activity4 .img {
+    background-image: url("../asset/img/activity/activity_4.png");
+}
