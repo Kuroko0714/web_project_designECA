@@ -43,7 +43,7 @@ div.info {
     /* background: #000; */
     background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_arp282_potw2206a.jpg");
     background-size: cover;
-    height: auto;
+    height: 120%;
     font-family: "XiaolaiSC";
     padding: 30px;
     width: calc(100% - 60px);
