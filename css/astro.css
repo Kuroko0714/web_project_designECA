@@ -1,0 +1,97 @@
+@import url("../asset/font.css");
+
+table {
+    border-collapse: collapse;
+}
+
+* {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+div.body {
+    background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/549310main_pia14093-43_full.jpg");
+    background-size: contain;
+    padding: 10%;
+    width: 80%;
+    height: auto;
+}
+
+div.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: 40px;
+    line-height: 72px;
+    height: 72px;
+    font-family: "Lucida Family";
+    background-color: #000;
+}
+
+div.header td {
+    text-align: center;
+    width: 25%;
+}
+
+div.header a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.header a:hover {
+    background: #fff;
+    color: #000;
+}
+
+div.content{
+    box-shadow: 10px 10px 10px #0005, -10px -10px 10px #0005;
+    background: #0005;
+    color: #fff;
+    padding: 5%;
+    width: 90%;
+}
+
+div.content div.astro{
+    height: auto;
+    margin: calc(10% / 3);
+    padding: 5%;
+    background: #fff5;
+}
+
+div.astro img{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content a{
+    display: inline-block;
+    width: calc(50% - 60px);
+    margin: 20px;
+    color: #1f1e33;
+    text-decoration: none;
+}
+
+.content a:hover>.astro>div{
+    color: #fff;
+    background: #000;
+}
+
+div.astro>div{
+    width: 97.5%;
+    line-height: 1.5;
+    height: calc(3em + 21px);
+    font-size: 26px;
+    font-family: "XiaolaiSC";
+    text-align: center;
+    background: #fff;
+    padding: 5px;
+}
+
+div.astro>div>div{
+    font-size: 14px;
+    font-family: "XiaolaiSC";
+    text-align: right;
+}

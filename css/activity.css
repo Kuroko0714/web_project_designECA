@@ -47,7 +47,7 @@ a{
     background-size: cover;
     position: relative;
     top: 72px;
-    height: calc(1350px + 20%);
+    height: calc(1700px + 25%);
 }
 
 .body a {
@@ -67,16 +67,16 @@ a{
     font-size: 30px;
 }
 
-div.activity:not(:last-of-type) {
+div.activity{
     border-bottom: 2px dotted #fff;
     height: 350px;
     width: calc(100% - 20px);
 }
 
-div.activity:last-of-type {
+/* div.activity:last-of-type {
     height: 350px;
     width: calc(100% - 20px);
-}
+} */
 
 div.activity .text {
     padding-left: 20px;
@@ -101,7 +101,7 @@ div.img {
 }
 
 .body span {
-    font-size: 35px;
+    font-size: 30px;
     display: inline-block;
     background: #1f1e33;
     line-height: 50px;
@@ -125,4 +125,8 @@ div.img {
 
 #activity4 .img {
     background-image: url("../asset/img/activity/activity_4.png");
+}
+
+#comp1 .img{
+    background-image: url("../asset/img/activity/competition.jpg");
 }

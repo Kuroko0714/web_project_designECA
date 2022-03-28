@@ -1,0 +1,103 @@
+@import url("../asset/font.css");
+
+table {
+    border-collapse: collapse;
+}
+
+* {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+div.body {
+    background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/archives_m8_0.jpg");
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    padding: 102px 0px 30px;
+    font-family: "XiaolaiSC";
+}
+
+div.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: 40px;
+    line-height: 72px;
+    height: 72px;
+    font-family: "Lucida Family";
+    background-color: #000;
+}
+
+div.header td {
+    text-align: center;
+    width: 25%;
+}
+
+div.header a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.header a:hover {
+    background: #fff;
+    color: #000;
+}
+
+div.body h1{
+    text-align: center;
+    font-size: 48px;
+    height: 1.5em;
+    line-height: 1.5;
+    color: #fff;
+}
+
+div.body div.info{
+    height: auto;
+    line-height: 1.5;
+    font-size: 30px;
+    color: #fff;
+    padding: 30px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+div.body tr{
+    margin: 30px;
+}
+
+div.body tr td:first-of-type{
+    height: 300px;
+    width: 70%;
+}
+
+div.body tr td:nth-of-type(2){
+    height: 300px;
+    width: 30%;
+}
+
+div.body p{
+    line-height: 1.5;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;  
+}
+
+/* div.body div.text:last-of-type{
+    height: auto;
+} */
+
+div.body img{
+    /* height: auto; */
+    float: right;
+    height: auto;
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+div.content{
+    height: auto;
+}

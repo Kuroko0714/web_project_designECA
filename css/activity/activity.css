@@ -1,0 +1,77 @@
+@import url("../../asset/font.css");
+
+table {
+    border-collapse: collapse;
+}
+
+* {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+div.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: 40px;
+    line-height: 72px;
+    height: 72px;
+    font-family: "Lucida Family";
+    background-color: #000;
+}
+
+div.header td {
+    text-align: center;
+    width: 25%;
+}
+
+div.header a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.header a:hover {
+    background: #fff;
+    color: #000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.body {
+    background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/stsci-h-p1816a-f-16x9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 72px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+
+p{
+    height: auto;
+    line-height: 1.5em;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "XiaolaiSC";
+}
+
+h1{
+    text-align: center;
+    height: auto;
+    line-height: 1.5em;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "XiaolaiSC";
+}
+
+img{
+    width: 33%;
+}

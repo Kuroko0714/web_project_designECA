@@ -95,8 +95,13 @@ div.intro a{
 
 div.intro img{
     position: absolute;
-    top: -100px;
+    top: -145px;
     left: 350px;
     height: 250px;
     width: 250px;
+}
+
+div.intro a>div:hover{
+    background: #fff;
+    color: #000;
 }
